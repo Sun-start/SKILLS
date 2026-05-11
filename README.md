@@ -1,12 +1,12 @@
 # SKILLS
 
-这是我的 AI Skill 仓库，用来集中保存可复用的 Codex / Claude Code skill。每个 skill 都以独立目录维护，目录名与 skill 的 `name` 保持一致。
+这是我的 AI Skill 仓库，用来集中保存skill。每个 skill 都以独立目录维护，目录名与 skill 的 `name` 保持一致。
 
 ## Skill 列表
 
 | Skill | 说明 | 适用场景 | 路径 |
 | --- | --- | --- | --- |
-| `tech-doc-generator` | 根据需求生成中文 Java 后端技术设计文档，遇到不明确设计决策时先向用户确认。 | Java、Spring Boot、MyBatis/MyBatis-Plus、DDD 分层架构下的模块技术设计文档生成。 | [`tech-doc-generator/`](./tech-doc-generator/) |
+| `tech-doc-generator` | 根据需求生成中文 Java 后端技术设计文档，遇到不明确设计决策时先向用户确认。 | Java、Spring Boot、DDD 分层架构下的模块技术设计文档生成。 | [`tech-doc-generator/`](./tech-doc-generator/) |
 
 ## 目录规范
 
