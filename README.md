@@ -6,6 +6,7 @@
 
 | Skill | 说明 | 适用场景 | 路径 |
 | --- | --- | --- | --- |
+| `ddd-package-placement` | 判断 Java DDD 分层架构下任意类、文件或职责描述应该放在哪个模块、包或目录。 | 用户询问包位置、目录结构、DDD 分层归属，或描述类职责需要放置建议时。 | [`ddd-package-placement/`](./ddd-package-placement/) |
 | `tech-doc-generator` | 根据需求生成中文 Java 后端技术设计文档，遇到不明确设计决策时先向用户确认。 | Java、Spring Boot、DDD 分层架构下的模块技术设计文档生成。 | [`tech-doc-generator/`](./tech-doc-generator/) |
 
 ## 目录规范
@@ -22,7 +23,7 @@ skill-name/
 └── assets/
 ```
 
-只有 `SKILL.md` 是必需文件，其他目录按需添加。不要在单个 skill 目录里放无关的 README、安装说明、变更日志等文件，保持 skill 自包含且轻量。
+只有 `SKILL.md` 是必需文件，其他目录按需添加。如需保留可导入的打包产物，可将 `.skill` 文件放在对应 skill 目录下。不要在单个 skill 目录里放无关的 README、安装说明、变更日志等文件，保持 skill 自包含且轻量。
 
 ## 新增 Skill 流程
 
